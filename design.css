@@ -4,6 +4,36 @@ body {
     font-family: Arial;
 }
 
+  #presentation {
+      width: 100%;
+      padding: 40px 60px;
+      box-sizing: border-box;
+    }
+
+    #presentation p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: black;
+      margin-bottom: 20px;
+    }
+
+    #presentation ul {
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    #presentation li {
+      margin-bottom: 10px;
+      font-size: 1rem;
+      line-height: 1.6;
+      color: black;
+      position: relative;
+      padding-left: 20px;
+    }
+
+
+  
+
 nav {
     position: fixed;
     top: 0;
