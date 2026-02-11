@@ -1,5 +1,5 @@
 body {
-    padding-top: 60px; /* Ajuste selon la hauteur du nav pour éviter qu'il cache du contenu */
+    padding-top: 60px;
     background-color: #808080;
     font-family: Arial;
 }
@@ -92,6 +92,14 @@ hr{
     background: black;
 }
 
+.vertical-hr {
+    width: 2px;
+    height: 100px;
+    background: black;
+    margin-top: 70px;
+}
+
+
 #competences img{
     max-width: 70px;
     max-height: 70px;
@@ -165,4 +173,49 @@ footer{
     font-weight: bold;
     font-family: Arial;
 }
+
+.bloc-contexte-competences {
+    display: flex;
+    gap: 40px;
+    margin-top: 100px;
+}
+
+.bloc-contexte-competences > section {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+/* Ligne verticale */
+.vertical-hr {
+    width: 5px;
+    background: black;
+    height: 400px;
+    align-self: flex-start;
+    margin-top: -30px;
+}
+
+#projet {
+    position: absolute;
+    bottom: -330px;
+    right: 640px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#projet:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.contexte-apports{
+    font-family: Regular;
+    font-size: 20px;
+}
+
 
